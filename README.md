@@ -19,7 +19,7 @@ You need locally installed python
 * Run `export PINECONE_INDEX_NAME=<your pinecone index name>` to set the pinecone index name
 * Run `export PINECONE_ENV=<your pinecone env>` to set the pinecone env
 * Run `export OPENAI_API_KEY=<your openai api key>` to set the openai api key
-* Run `python localbot.py` to start the bot
+* Run `python localbot.py` to start the bot (`localbot_adapted.py` uses improved prompts for better results)
 
 ### Run the bot on Slack
 

@@ -1,4 +1,4 @@
-# This script is running the bot locally in your terminal
+# This script is running the most basic bot locally in your terminal
 
 import os
 import pinecone
