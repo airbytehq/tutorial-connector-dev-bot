@@ -1,0 +1,49 @@
+{
+    "display_information": {
+        "name": "Connector Development Helper Bot",
+        "description": "Helpful bot to answer questions around connector development",
+        "background_color": "#303133"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Airbyte Connector Dev Help",
+            "always_online": false
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "channels:history"
+            ],
+            "bot": [
+                "channels:history",
+                "channels:join",
+                "channels:read",
+                "files:read",
+                "groups:read",
+                "links:read",
+                "reactions:read",
+                "remote_files:read",
+                "team:read",
+                "usergroups:read",
+                "users.profile:read",
+                "users:read",
+                "app_mentions:read",
+                "chat:write"
+            ]
+        }
+    },
+    "settings": {
+        "event_subscriptions": {
+            "bot_events": [
+                "app_mention"
+            ]
+        },
+        "interactivity": {
+            "is_enabled": true
+        },
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": true,
+        "token_rotation_enabled": false
+    }
+}
