@@ -4,7 +4,7 @@ This is the code for the tutorial published on the Airbyte blog (link pending).
 
 It implements a chat bot that uses contextual information stored in Pinecone, Langchain to orchestrate an LLM and the Slack sdk to provide a Slack bot that can answer Airbyte connector builder-related questions on Slack.
 
-If you like this project, feel free to leave us a star on the main [Airbyte Repo](https://github.com/airbytehq/airbyte/blob/master/README.md)! 
+If you like this project, leave us a star 🌟 on the main [Airbyte Repo](https://github.com/airbytehq/airbyte/blob/master/README.md)! 
 
 ## How to run
 
@@ -34,4 +34,4 @@ You need locally installed python
 * Run `export SLACK_BOT_TOKEN=<your slack bot token>` to set the slack bot token
 * Run `python slackbot.py` to start the bot
 
-Again, feel free to leave us a star on the main [Airbyte repo](https://github.com/airbytehq/airbyte/blob/master/README.md)!
+Again, leave us a star 🌟 on the main [Airbyte repo](https://github.com/airbytehq/airbyte/blob/master/README.md)!
