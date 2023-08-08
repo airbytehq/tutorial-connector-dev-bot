@@ -34,4 +34,4 @@ You need locally installed python
 * Run `export SLACK_BOT_TOKEN=<your slack bot token>` to set the slack bot token
 * Run `python slackbot.py` to start the bot
 
-Again, leave us a star 🌟 on the main [Airbyte repo](https://github.com/airbytehq/airbyte/blob/master/README.md)!
+Again, leave us a star ⭐ on the main [Airbyte repo](https://github.com/airbytehq/airbyte/blob/master/README.md)!
