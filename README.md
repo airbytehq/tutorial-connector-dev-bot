@@ -1,6 +1,6 @@
 # Connector dev bot
 
-This is the code for the tutorial published on the Airbyte blog (link pending).
+This is the code for the [tutorial published on the Airbyte blog](https://airbyte.com/tutorials/chat-with-your-data-using-openai-pinecone-airbyte-and-langchain)
 
 It implements a chat bot that uses contextual information stored in Pinecone, Langchain to orchestrate an LLM and the Slack sdk to provide a Slack bot that can answer Airbyte connector builder-related questions on Slack.
 
