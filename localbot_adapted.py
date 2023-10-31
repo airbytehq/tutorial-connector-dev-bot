@@ -31,7 +31,7 @@ class ContextualRetriever(VectorStoreRetriever):
         return [self.format_doc(doc) for doc in docs]
 
     def format_doc(self, doc: Document) -> Document:
-        if doc.metadata["_airbyte_stream"] == "DatasetItems":
+        if doc.metadata["_airbyte_stream"] == "item_collection":
             doc.page_content = f"Excerpt from documentation page: {doc.page_content}"
         elif doc.metadata["_airbyte_stream"] == "issues":
             doc.page_content =  f"Excerpt from Github issue: {doc.page_content}, issue number: {int(doc.metadata['number']):d}, issue state: {doc.metadata['state']}"
