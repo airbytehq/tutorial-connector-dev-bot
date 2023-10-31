@@ -2,3 +2,4 @@ pinecone-client
 langchain
 openai
 slack_sdk
+tiktoken
